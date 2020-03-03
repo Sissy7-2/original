@@ -1,38 +1,32 @@
-<!DOCTYPE html>
-<html lang="{{ app()->getlocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-        
-        <title>@yield('title')</title>
-        
-        <script src="{{ secure_asset('js/app.js') }}" defer></script> 
-        
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
-        
-        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
-        </head>
-        <body>
-        <header class="container">
-        <div class="row">
+@extends('layouts.layout')
+@section('title', 'header')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        @include('parts/logo')
+        <div class="col-md-8 mx-auto">
             <h2 class="text-left">eye's project</h2>
-            <nav>
-                <ul class="row">
-                    <li><a href="#">profile</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">details</a></li>
-                    <li><a href="#">contact</a></li>
-                    <li><a class="instagram-btn" href="#">instagram</a></li>
-                </ul>
-            </nav>
-            <p class="language_change-btn">言語変更ボタン</p>
-            @csrf
+           　<nav>
+              <ul>
+               <li><a class="current" href="#">Home</a></li>
+               <li><a href="/profile">profile</a></li>
+               <li><a href="/about">about</a></li>
+               <li><a href="/details">details</a></li>
+               <li><a href="/contact">contact</a></li>
+               <li><a class="insta-btn" href="#">instagram</a></li>
+             </ul>
+             </nav>
+                                    @if (count($errors) > 0)
+                                    <ul>
+                                        @foreach ($errors->all() as $e)
+                                        <li>{{ $e }}</li>
+                                        @endforeach
+                                    </ul>
+                                    @endif
+                                    {{ csrf_field() }}
+                                    
         </div>
-    </header>
-    </body>
+    </div>
+</div>
 @endsection
