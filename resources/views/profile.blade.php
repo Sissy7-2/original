@@ -1,52 +1,21 @@
-@extends('layouts.footercontact')
+@extends('layouts.layout')
 @section('title', 'profile')
 
 @section('content')
-     <div class="container">
-      <div class="row">
-         <div class="col-md-8 mx-auto">
-        <h1>profile</h1>
-        <form action="{{ action('ProfileController@add') }}" method="post" enctype="multipart/form-data">
-            
-             @if (count($errors) > 0)
-                                    <ul>
-                                        @foreach ($errors->all() as $e)
-                                        <li>{{ $e }}</li>
-                                        @endforeach
-                                    </ul>
-                                    @endif
-                                    
-                                    <div class="form-group row">
-                                        <label class="col-md-2" for="name">氏名</label>
-                                        <div classs="col-md-10">
-                                            <input type="text" class="form-control" name="name" value="{{ old('name') }}">
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="form-group row">
-                                        <label class="col-md-2" for="gender">性別</label>
-                                        <div classs="col-md-10">
-                                            <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="form-group row">
-                                        <label class="col-md-2" for="hobby">趣味</label>
-                                        <div classs="col-md-10">
-                                            <textarea class="form-control" name="hobby" rows="5" cols="50">{{ old('hobby') }}</textarea>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="form-group row">
-                                        <label class="col-md-2" for="introduction">自己紹介欄</label>
-                                        <div classs="col-md-10">
-                                        <textarea class="form-control" name="introduction" rows="10" cols="70">{{ old('introduction') }}</textarea>
-                                        </div>
-                                    </div>
-                                    {{ csrf_field() }}
-            <input type="submit" class="btn btn-primary" value="更新">
-        </form>
-     </div>
-    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h4>マリー</h4>
+                <h4>Marie</h4>
+                日本、沖縄出身。この目の動画のプロジェクトのアイディアから撮影、編集全てをやっている人。<br>
+                今後はショートフィルム、インスタレーションとしてプロジェクトを展開予定。<br>
+                <br>
+                MV<br>「砂の果実」沖縄電子少女彩
+                
+                
+                
+                
+            </div>
+        </div>
     </div>
 @endsection

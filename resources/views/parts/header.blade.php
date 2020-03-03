@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <header class="container">
     <div class="row">
-        @include('parts/logo')
+        <!--@include('parts/logo')-->
         <div class="col-md-4 mx-auto">
            　<nav>
               <ul>
