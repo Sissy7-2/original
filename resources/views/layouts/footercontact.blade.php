@@ -19,7 +19,17 @@
         </head>
         <body>
             <div id="app">
-            @include('parts/header')
+            <!--@include('parts/header')-->
+            <div class="contact scroll_center" style="position: relative;">
+                <div class="contact_box">
+                    <a href="/contact/"></a>
+                    <h2 class="initial_logo secttl">
+                        ::before
+                        "contact me"
+                    </h2>
+                    
+                </div>
+            </div>
             
             
             
