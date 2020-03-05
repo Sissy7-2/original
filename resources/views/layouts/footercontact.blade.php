@@ -15,11 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
         
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ secure_asset('css/layout.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/footercontact.css') }}" rel="stylesheet">
         </head>
         <body>
             <div id="app">
-            <!--@include('parts/header')-->
             <div class="contact scroll_center" style="position: relative;">
                 <div class="contact_box">
                     <a href="/contact/"></a>
