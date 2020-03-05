@@ -4,6 +4,7 @@
 @section('content')
     <div class="container">
         <div class="row">
+            @include('parts/header')
             <div class="col-md-8 mx-auto">
                 <h2>体験者の参加条件</h2>
                 <ul>

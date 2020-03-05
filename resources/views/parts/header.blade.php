@@ -27,7 +27,7 @@
                <li><a href="/about">about</a></li>
                <li><a href="/details">details</a></li>
                <li><a href="/contact">contact</a></li>
-               <li><a class="insta-btn" href="#">instagram</a></li>
+               <li><a class="insta-btn" href="https://www.instagram.com/marie2x6.2/">instagram</a></li>
              </ul>
              </nav>
             </div>

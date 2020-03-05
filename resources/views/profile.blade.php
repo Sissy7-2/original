@@ -1,9 +1,10 @@
-@extends('layouts.layout')
+@extends('layouts.footercontact')
 @section('title', 'profile')
 
 @section('content')
     <div class="container">
         <div class="row">
+            @include('parts/header')
             <div class="col-md-8 mx-auto">
                 <h4>マリー</h4>
                 <h4>Marie</h4>
@@ -11,9 +12,6 @@
                 今後はショートフィルム、インスタレーションとしてプロジェクトを展開予定。<br>
                 <br>
                 MV<br>「砂の果実」沖縄電子少女彩
-                
-                
-                
                 
             </div>
         </div>
