@@ -18,11 +18,11 @@ text-align: center;
     color: #333;
     &.current{
       color: #00B0F0;
-      border-bottom:2px solid #00B0F0;
+      border-top:2px solid #00B0F0;
     }
     &:hover{
       color:#F7CB4D;
-      border-bottom:2px solid #F7CB4D;
+      border-top:2px solid #F7CB4D;
     }
   }
 }

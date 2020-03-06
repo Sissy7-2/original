@@ -19,15 +19,7 @@
         </head>
         <body>
             <div id="app">
-            <div class="contact scroll_center" style="position: relative;">
-                <div class="contact_box">
-                    <a href="/contact/"></a>
-                    <h2 class="initial_logo secttl">
-                        ::before
-                        "contact me"
-                    </h2>
-                    
-                </div>
+            <button type="button" class="btn btn-default btn-lg btn-block">contact me</button>
             </div>
 
             <main class="py-4">
