@@ -1,44 +1,55 @@
-body {
-    background-repeat: no repeat;
-    background-position: center;
-    background-color: #fff;
+body {3
+    // font-size: 16px;
+    font-family: "futura",'Noto Sans JP', sans-serif;
+    font-weight: normal;
     color: #000;
 }
 
-.navbar-laravel {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+element.style {
+    position: relative;
 }
 
-.navbar-brand {
-    color: #000 !important;
-}
-
-.nav-link {
-    color: #000 !important;
-}
-
-.table-dark {
+::selection {15
+    background: #fff000;
     color: #000;
 }
 
-.list-group-item {
-    border-color: #000;
+main .contact {360
+    // position: relative;
+    text-align: center;
+    padding: 91px 0;
+    background-color: #F6F6F6;
+}
+
+main .contact .contact_Box {709
+    // -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #D6D6D6;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
     background-color: #fff;
+    // -webkit-transition: 0.5s;
+    // -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.login-box {
-    background-color: rgba(0, 0, 0, 0);
+main .contact:last-child {792
+    margin-bottom: 100px;
 }
 
-.login-header {
-    background-color: rgba(0, 0, 0, 0.25);
-}
 
-.login-body {
-    background-color: rgba(0, 0, 0, 0.25);
-}
 
-.container {
-    margin: 20px, 40px, 0, 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
