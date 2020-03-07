@@ -1,17 +1,12 @@
-{{-- layouts/admin.blade.phpを読み込む --}}
 @extends('layouts.admin')
+@section('title', 'movie投稿管理')
 
-
-{{-- admin.blade.phpの@yield('title')に'movieの投稿作成'を埋め込む --}}
-@section('title', 'movieの投稿作成')
-
-{{-- admin.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 mx-auto">
-                <h2>movie投稿作成</h2>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h1>movie投稿作成</h1>
         </div>
     </div>
+</div>
 @endsection

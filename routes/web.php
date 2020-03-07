@@ -31,11 +31,5 @@ Route::post('contact/complete', 'ContactsController@complete');
 
 
 Route::group(['prefix' => 'admin'], function() {
-    Route::get('movie/create', 'Admin\MovieController@add')->middleware('auth');
+    Route::get('movie/create', 'Admin\MovieController@add');
 });
-
-// Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
