@@ -1,4 +1,4 @@
-extends('layouts.admin')
+@extends('layouts.admin')
 @section('title', 'movie投稿管理画面')
 
 @section('content')

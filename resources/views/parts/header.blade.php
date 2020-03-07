@@ -17,9 +17,9 @@
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
         </head>
-         <header class="container">
+         <header class="container-fluid">
           <div class="row">
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-12 mx-auto">
            　<nav>
               <ul>
                <li><a class="current" href="#">Home</a></li>
