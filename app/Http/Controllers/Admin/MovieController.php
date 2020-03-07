@@ -7,9 +7,10 @@ use App\Http\Controllers\Controller;
 
 class MovieController extends Controller
 {
-    //
-    public function add()
+  // 以下を追記
+  public function add()
   {
       return view('admin.movie.create');
   }
+
 }

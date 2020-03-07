@@ -30,4 +30,10 @@ Route::post('contact/confirm', 'ContactsController@confirm');
 Route::post('contact/complete', 'ContactsController@complete');
 
 
+Route::group(['prefix' => 'admin'], function() {
+Route::get('movie/create', 'Admin\MovieController@add')->middleware('auth');
+
+    
+});
+
 // Route::get('/home', 'HomeController@index')->name('home');
