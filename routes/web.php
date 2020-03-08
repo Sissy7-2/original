@@ -30,6 +30,7 @@ Route::post('contact/confirm', 'ContactsController@confirm');
 Route::post('contact/complete', 'ContactsController@complete');
 
 
-Route::group(['prefix' => 'admin'], function() {
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('movie/create', 'Admin\MovieController@add');
+    Route::post('movie/create', 'Admin\MovieController@create');
 });

@@ -12,4 +12,11 @@ class MovieController extends Controller
   {
       return view('admin.movie.create');
   }
+  
+  public function create(Request $request)
+  {
+      // admin/news/createにリダイレクトする
+      return redirect('admin/movie/create');
+  }  
+  
 }
