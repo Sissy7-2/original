@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.footercontact')
 @section('title', 'about')
 
 @section('content')
