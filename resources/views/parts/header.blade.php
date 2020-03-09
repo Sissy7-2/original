@@ -19,6 +19,7 @@
         </head>
          <header class="container-fluid">
           <div class="row">
+            @include('parts/logo')
             <div class="col-md-12 mx-auto">
            　<nav>
               <ul>

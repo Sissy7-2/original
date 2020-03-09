@@ -16,13 +16,13 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2">タイトル</label>
+                        <label class="col-md-2">name</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="title" value="{{ old('title') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">本文</label>
+                        <label class="col-md-2">answers</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="body" rows="10">{{ old('body') }}</textarea>
                         </div>

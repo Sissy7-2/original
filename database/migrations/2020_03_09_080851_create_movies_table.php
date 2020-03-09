@@ -15,10 +15,9 @@ class CreateMoviesTable extends Migration
     {
         Schema::create('movies', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('name'); // ニュースのタイトルを保存するカラム
+            $table->string('answers');  // ニュースの本文を保存するカラム
+            $table->string('image_path')->nullable();  // 画像のパスを保存するカラム
             $table->timestamps();
         });
     }
