@@ -1,12 +1,23 @@
 body {
-    background-repeat: no repeat;
     background-position: center;
     background-color: #fff;
     color: #000;
 }
 
-.container {
-    margin: 20px, 40px, 0, 40px;
+div.container-m {
+  margin-top: 80px;
 }
 
-text-align: justify;
+footer{
+	background-color:#EEF5FF;
+	ppadding-top:60px;
+	padding-bottom:60px;
+}
+
+
+
+
+
+.btn-block{
+    background-color:#fcff42;
+}

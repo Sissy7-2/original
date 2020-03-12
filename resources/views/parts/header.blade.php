@@ -17,13 +17,14 @@
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
         </head>
+        @include('parts/logo')
          <header class="container-fluid">
+          
           <div class="row">
-            @include('parts/logo')
+            
             <div class="col-md-12 mx-auto">
            　<nav>
               <ul>
-               <li><a class="current" href="#">Home</a></li>
                <li><a href="/profile">profile</a></li>
                <li><a href="/about">about</a></li>
                <li><a href="/details">details</a></li>

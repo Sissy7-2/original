@@ -18,13 +18,23 @@
         <link href="{{ secure_asset('css/footercontact.css') }}" rel="stylesheet">
         </head>
         <body>
-            <div id="app">
-            <button type="button" class="btn btn-default btn-lg btn-block">contact me</button>
-            </div>
-
-            <main class="py-4">
-                @yield('content')
-            </main>
-            </div>
+         <main class="py-4">
+            @yield('content')
+         </main>
+        <footer>
+            <div class="container">
+            <div class="row text-center">
+            <button type="button" class="btn btn-outline-warning btn-lg btn-block"><a href="/contact">contact me</button></a>
+           
+            
+         </footer>
+           </div>
+         </div>
+       </div>
+            
+    </div>
+   </div>
+</div>
+            
         </body>
 </html>

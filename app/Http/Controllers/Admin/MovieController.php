@@ -16,15 +16,15 @@ class MovieController extends Controller
   public function create(Request $request)
   {
        // Varidationを行う
-        $this->validate($request, Movie::$rules);
-        $movie = new Movie;
+        $this->validate($request, User::$rules);
+        $user = new User;
         $form = $request->all();
         // formに画像があれば、保存する
         if (isset($form['image'])) {
         $path = $request->file('image')->store('public/image');
-        $movie->image_path = basename($path);
+        $user->image_path = basename($path);
       } else {
-          $movie->image_path = null;
+          $user->image_path = null;
       }
       
       // フォームから送信されてきた_tokenを削除する
@@ -33,8 +33,8 @@ class MovieController extends Controller
       unset($form['image']);
 
       // データベースに保存する
-      $movie->fill($form);
-      $movie->save();
+      $user->fill($form);
+      $user->save();
 
       return redirect('admin/movie/create');
   }

@@ -17,7 +17,7 @@
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/layout.css') }}" rel="stylesheet">
         </head>
-        <body>
+        <body>　
             <div id="app">
             <main class="py-4">
                 @yield('content')

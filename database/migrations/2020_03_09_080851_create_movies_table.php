@@ -18,7 +18,7 @@ class CreateMoviesTable extends Migration
             $table->string('name'); // ニュースのタイトルを保存するカラム
             $table->string('answers');  // ニュースの本文を保存するカラム
             $table->string('image_path')->nullable();  // 画像のパスを保存するカラム
-            $table->timestamps();
+            $table->timestamps = false;
         });
     }
 
