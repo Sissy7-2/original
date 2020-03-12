@@ -22,11 +22,9 @@
             @yield('content')
          </main>
         <footer>
-            <div class="container">
+            <div class="container pt-5">
             <div class="row text-center">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block"><a href="/contact">contact me</button></a>
-           
-            
+            <p class="col-md-12 mx-auto contactbg"><a href="/contact">contact me</a></p>
          </footer>
            </div>
          </div>
@@ -36,5 +34,5 @@
    </div>
 </div>
             
-        </body>
+</body>
 </html>

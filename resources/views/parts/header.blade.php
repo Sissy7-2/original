@@ -17,12 +17,12 @@
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
         </head>
-        @include('parts/logo')
+       
          <header class="container-fluid">
           
           <div class="row">
+            @include('parts/logo')
             
-            <div class="col-md-12 mx-auto">
            　<nav>
               <ul>
                <li><a href="/profile">profile</a></li>
@@ -32,6 +32,6 @@
                <li><a class="insta-btn" href="https://www.instagram.com/marie2x6.2/">instagram</a></li>
              </ul>
              </nav>
-            </div>
+           
             </div>
         </header>
