@@ -18,5 +18,5 @@
         <link href="{{ secure_asset('css/logo.css') }}" rel="stylesheet">
         </head>
         <body>
-            <p>eye's project</p>
+         <a href="/">eye's project</a>
         </body>

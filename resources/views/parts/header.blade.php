@@ -18,7 +18,7 @@
         <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
         </head>
        
-         <header class="container-fluid">
+         <header class="container">
           
           <div class="row">
             @include('parts/logo')

@@ -44897,7 +44897,7 @@ if (false) {
 /* 47 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \n&:hover{\n^\n      Base-level rules cannot contain the parent-selector-referencing character '&'.\n      in /home/ec2-user/environment/eyesproject/eyesproject/resources/assets/sass/logo.scss (line 47, column 1)\n    at /home/ec2-user/environment/eyesproject/eyesproject/node_modules/webpack/lib/NormalModule.js:195:19\n    at /home/ec2-user/environment/eyesproject/eyesproject/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/ec2-user/environment/eyesproject/eyesproject/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/home/ec2-user/environment/eyesproject/eyesproject/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.callback (/home/ec2-user/environment/eyesproject/eyesproject/node_modules/sass-loader/lib/loader.js:55:13)\n    at Object.done [as callback] (/home/ec2-user/environment/eyesproject/eyesproject/node_modules/neo-async/async.js:8067:18)\n    at options.error (/home/ec2-user/environment/eyesproject/eyesproject/node_modules/node-sass/lib/index.js:294:32)");
 
 /***/ }),
 /* 48 */

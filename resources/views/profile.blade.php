@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             @include('parts/header')
-            <div class="col-md-8 mx-auto">
+            <div class="col-md-12 mx-auto">
                 <h4>マリー</h4>
                 <h4>Marie</h4>
                 日本、沖縄出身。この目の動画のプロジェクトのアイディアから撮影、編集全てをやっている人。<br>
