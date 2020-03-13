@@ -22,10 +22,11 @@
             @yield('content')
          </main>
         <footer>
-            <div class="container pt-5">
-            <div class="row text-center">
-            <p class="col-md-12 mx-auto contactbg"><a href="/contact">contact me</a></p>
+            <div class="container mx-auto pt-5">
+            <div class="text-center">
+            <p class="col-md-12 mx-auto contactbg text-center"><a href="/contact">contact me</a></p>
          </footer>
+         </div>
            </div>
          </div>
        </div>

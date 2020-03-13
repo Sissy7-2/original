@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             @include('parts/header')
-            <div class="col-md-8 mx-auto">
+            <div class="col-md-8 text-left mt">
                 <h2>体験者の参加条件</h2>
                 <ul>
                     <li>人間であればどなたでも参加出来ます。</li>
