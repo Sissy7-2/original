@@ -8,6 +8,8 @@ footer {
   background-color: #EEF5FF;
   padding-top: 40px;
   padding-bottom: 80px;
+  margin-top: 240px;
+  margin-bottom: 60px;
 }
 
 .contactbg a {
@@ -29,8 +31,18 @@ footer {
   color: #333;
 }
 
-.mt {
-  margin-top: 20rem;
-  margin-bottom: 8rem;
+.m {
+  padding-top: 220px;
+  padding-bottom: 0px;
+}
+
+.m1 {
+  padding-top: 230px;
+  padding-bottom: 0px;
+}
+
+.m2 {
+  padding-top: 120px;
+  padding-bottom: 0px;
 }
 

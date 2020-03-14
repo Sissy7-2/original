@@ -5,8 +5,10 @@
     <div class="container">
         <div class="row">
             @include('parts/header')
-            <div class="col-md-8 text-left mt">
-                
+            <div class="col-md-12">
+            <div class="mx-auto" style="width:800px;">
+            <div class="m">
+                <p>
                 <h4>マリー</h4>
                 <h4>Marie</h4>
             
@@ -15,7 +17,10 @@
                 今後はショートフィルム、インスタレーションとしてプロジェクトを展開予定。<br>
                 <br>
                 MV<br>「砂の果実」沖縄電子少女彩
-             
+             </p>
+             </div>
+             </div>
+             </div>
             </div>
         </div>
     </div>

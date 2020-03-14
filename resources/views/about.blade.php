@@ -5,7 +5,8 @@
     <div class="container">
         <div class="row">
             @include('parts/header')
-            <div class="col-md-8 text-left mt">
+            <div class="mx-auto" style="width:800px;">
+            <div class="m1">
                 これは、目の動画を通して経験の共有を体験するプロジェクトです。右目と左目のズームアップをそれぞれ撮影しています。<br>
                 そこでは過去の質問と未来の質問をしており、その質問に対して答えている映像となっています。あなたがこのプロジェクトに<br>
                 参加したとき、質問の内容を初めて知ることが出来ます。これらの質問には正しい答えはありません。あなたが質問を知ったとき、<br>

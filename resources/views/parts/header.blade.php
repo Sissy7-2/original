@@ -19,7 +19,6 @@
         </head>
        
          <header class="container">
-          
           <div class="row">
             @include('parts/logo')
             
