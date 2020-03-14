@@ -12,13 +12,5 @@ class TopController extends Controller
   {
       return view('top');
   }
-  
-  
-  public function show() {
-    
-    $image_rand = array(["img/Righteye.JPG", "img/Lefteye.JPG"]);
-    $image_rand = $image_rand[mt_rand(0, count($image_rand)-1)];
-    echo '<img src="'.$image_rand.'" alt="">';
-  }
 
 }
