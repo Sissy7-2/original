@@ -1,3 +1,7 @@
+.header {
+  float: right;
+}
+
 nav {
   text-align: center;
 }
@@ -10,8 +14,9 @@ nav ul {
 nav li {
   list-style: none;
   display: inline-block;
-  width: 10%;
-  min-width: 90px;
+  width: 8%;
+  font-size: 20px;
+  min-width: 100px;
 }
 
 nav li:not(:last-child) {
@@ -31,5 +36,15 @@ nav a.current {
 nav a:hover {
   color: #fce305;
   border-top: 2px solid #fce305;
+}
+
+.flowbtn10 {
+  display: inline-block;
+  font-size: 22px;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #444;
+  padding-right: 24px;
 }
 

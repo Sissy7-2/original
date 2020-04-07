@@ -16,21 +16,26 @@
         
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/header.css') }}" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/dba3a9d787.js" crossorigin="anonymous"></script>
+        
         </head>
        
          <header class="container">
-          <div class="row">
             @include('parts/logo')
             
+            <div class="header">
            　<nav>
               <ul>
                <li><a href="/profile">profile</a></li>
                <li><a href="/about">about</a></li>
                <li><a href="/details">details</a></li>
                <li><a href="/contact">contact</a></li>
-               <li><a class="insta-btn" href="https://www.instagram.com/marie2x6.2/">instagram</a></li>
+               <li><a href="https://www.instagram.com/marie2x6.2/" class="flowbtn10"><i class="fab fa-instagram"></i>
+               </a></li>
              </ul>
              </nav>
+           </div>
            
             </div>
         </header>
