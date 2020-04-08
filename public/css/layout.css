@@ -44,3 +44,19 @@ body {
   margin: 20px, 40px, 0, 40px;
 }
 
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.pic {
+  background-size: contain;
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+}
+
+
+.eyespic {
+  
+}

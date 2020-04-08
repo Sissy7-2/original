@@ -9,7 +9,9 @@
             <div class="m">
             <body>
              <br>
+             <div class="eyesphoto"></div>
              <img src="{{ secure_asset('/js/img/Righteye.JPG') }}" class="img-fluid">
+            
             </body>
         </div>
     </div>
