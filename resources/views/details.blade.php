@@ -7,8 +7,9 @@
             @include('parts/header')
             <div class="col-md-12">
             <div class="mx-auto" style="width:800px;">
-            <div class="m2">
-                <p>
+            <body>
+            <div class="text">
+                <div class="container">
                 <h3>体験者の参加条件</h3>
                 <ul>
                     <li>人間であればどなたでも参加出来ます。</li>
@@ -27,8 +28,9 @@
                     <li>SNSではあなたの出身地、国籍、第一言語、あなたの答えが記載された内容となっています。</li>
                     <li>このプロジェクトに要する時間は約30分となります。</li>
                 </ul>
-                </p>
                 </div>
+                </div>
+                </body>
                 </div>
                 </div>
             </div>

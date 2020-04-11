@@ -4,6 +4,15 @@ body {
     color: #000;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: left;
+  padding-top: 180px;
+}
 
 
 footer{
@@ -33,24 +42,6 @@ footer{
       color: #333;
     }
   }
-}
-
-
-.m{
-  padding-top: 220px;
-	padding-bottom: 0px;
-}
-
-
-.m1{
-  padding-top: 230px;
-	padding-bottom: 0px;
-}
-
-
-.m2{
-  padding-top: 120px;
-  padding-bottom: 0px;
 }
 
 
