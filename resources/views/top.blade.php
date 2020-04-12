@@ -6,11 +6,12 @@
         <div class="row">
             @include('parts/header')
             <body>
-             <br>
+             <div class="topimg">
              <div class="container">
-             <img class="eyespic" src="{{ secure_asset('/js/img/Righteye.JPG') }}">
-            </div>
-            </body>
+             <img src="{{ secure_asset('/js/img/Righteye.JPG') }}" class="img-fluid">
+           </div>
+           </div>
+           </body>
+        </div>
     </div>
-</div>
 @endsection
