@@ -25,7 +25,6 @@
             <div class="container">
             <div class=”row”>
             <div class="col-md-12 pt-5">
-            <div class="mx-auto" style="width:200px;"></div>
             <p class="contactbg text-center"><a href="/contact">contact me</a></p>
          </footer>
          </div>
