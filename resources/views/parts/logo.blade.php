@@ -18,9 +18,9 @@
         <link href="{{ secure_asset('css/logo.css') }}" rel="stylesheet">
         </head>
         <body>
-         
-         <div class="header-left">
+         <div class="container-fluid mx-5">
+         <div class="logo float-left">
            <a href="/">eye's project</a>
-　　　　　</div>
-       
+          </div>
+          </div>
         </body>

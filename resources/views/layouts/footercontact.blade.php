@@ -12,23 +12,21 @@
         <script src="{{ secure_asset('js/app.js') }}" defer></script> 
         
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+        <link h
         
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/footercontact.css') }}" rel="stylesheet">
         </head>
-        <body>
-         <main class="py-4">
+      <body>
+         <main class="py-1">
             @yield('content')
          </main>
-        <footer>
+        <footer class="fixed-bottom">
             <div class="container">
-            <div class=”row”>
             <div class="col-md-12 pt-5">
             <p class="contactbg text-center"><a href="/contact">contact me</a></p>
-         </footer>
          </div>
          </div>
-       </div>
+       </footer>
 </body>
 </html>

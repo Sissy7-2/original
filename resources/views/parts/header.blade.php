@@ -20,11 +20,10 @@
         <script src="https://kit.fontawesome.com/dba3a9d787.js" crossorigin="anonymous"></script>
         
         </head>
-       
-         <header class="container">
+        <body>
             @include('parts/logo')
-            
-            <div class="header">
+            <div class="container-fluid mx-5">
+            <div class="header float-right">
            　<nav>
               <ul>
                <li><a href="/profile">profile</a></li>
@@ -35,7 +34,7 @@
                </a></li>
              </ul>
              </nav>
-           </div>
-           
+            </div>
             </div>
         </header>
+        </body>

@@ -4,7 +4,7 @@
 @section('content')
             @include('parts/header')
             <body>
-             <div class="container">
+            <div class="container-fluid mx-5">
              <img src="{{ secure_asset('/js/img/Righteye.JPG') }}" class="img-fluid mt-4" alt="Responsive image">
            </div>
            </body>

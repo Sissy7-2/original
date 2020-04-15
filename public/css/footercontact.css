@@ -11,15 +11,13 @@ body {
 
 .text {
   text-align: left;
-  padding-top: 180px;
 }
 
 footer {
   background-color: #C8DFFF;
   padding-top: 40px;
   padding-bottom: 80px;
-  margin-top: 240px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .contactbg a {
