@@ -3,7 +3,6 @@
 
 @section('content')
     @include('parts/header')
-    <body>
         <div class="container">
             <div class="row">
             <div class="mx-auto m-5 pl-5">
@@ -17,7 +16,6 @@
            </div>
            </div>
         </div>
-    </body>
 @endsection
 
 
