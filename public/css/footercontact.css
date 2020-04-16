@@ -9,8 +9,13 @@ body {
   margin: 0 auto;
 }
 
-.text {
-  text-align: left;
+.txt {
+  display: inline-block;
+  padding-top: 80px;
+}
+
+.text-about {
+  padding-top: 120px;
 }
 
 footer {
