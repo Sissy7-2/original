@@ -9,17 +9,20 @@ body {
   margin: 0 auto;
 }
 
-.txt {
-  display: inline-block;
-  padding-top: 80px;
+.strong {
+  font-size: 22px;
+}
+
+.text-profile {
+  padding-top: 160px;
 }
 
 .text-about {
-  padding-top: 120px;
+  padding-top: 180px;
 }
 
 .text-details {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 footer {
