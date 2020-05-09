@@ -698,7 +698,7 @@
                 "symfony/console": "^4.1",
                 "symfony/debug": "^4.1",
                 "symfony/finder": "^4.1",
-                "symfony/http-foundation": "^4.4.7",
+                "symfony/http-foundation": "^4.1",
                 "symfony/http-kernel": "^4.1",
                 "symfony/process": "^4.1",
                 "symfony/routing": "^4.1",
@@ -2820,6 +2820,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2834,6 +2835,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> 469af2194983e6f15c4b3f3a2524f006fd02e4d2
             "time": "2020-03-30T14:07:33+00:00"
         },
         {
@@ -3000,6 +3003,7 @@
                 "mime",
                 "mime-type"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3014,6 +3018,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> 469af2194983e6f15c4b3f3a2524f006fd02e4d2
             "time": "2020-03-27T16:56:45+00:00"
         },
         {
@@ -3221,6 +3227,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3235,6 +3242,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> 469af2194983e6f15c4b3f3a2524f006fd02e4d2
             "time": "2020-03-09T19:04:49+00:00"
         },
         {
@@ -3294,6 +3303,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3308,6 +3318,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> 469af2194983e6f15c4b3f3a2524f006fd02e4d2
             "time": "2020-03-09T19:04:49+00:00"
         },
         {
@@ -3363,6 +3375,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3377,6 +3390,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> 469af2194983e6f15c4b3f3a2524f006fd02e4d2
             "time": "2020-02-27T09:26:54+00:00"
         },
         {
